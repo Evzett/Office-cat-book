@@ -55,7 +55,7 @@ class NewEmplWindow(QDialog):
 "border-radius: 20px; /* Закругление углов */\n"
 "")
         self.candy_pctr.setText("")
-        self.candy_pctr.setPixmap(QtGui.QPixmap("../../Downloads/img/candy.jpg"))
+        self.candy_pctr.setPixmap(QtGui.QPixmap("./img/candy.jpg"))
         self.candy_pctr.setObjectName("candy_pctr")
         self.inp_name = QtWidgets.QLineEdit(new_empl_window)
         self.inp_name.setGeometry(QtCore.QRect(131, 90, 144, 26))
